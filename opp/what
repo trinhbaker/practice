@@ -1,0 +1,40 @@
+chia bài toán thành đối tượng cụ thể để giải quyết
+tái sử dụng code, 
+đóng gói
+đưa ra quy chuẩn để viết code: 
+
+Sử dụng
+class: tạo ra nhiều object
+object:cùng thuộc tính và tính chất của class
+ví dụ: 
+Class: Quản lý sinh viên gồm các object:
+- student
+- Môn học
+- lớp 
+- điểm
+
+class ClassName {
+    
+}
+property: thuộc tính
+biến được khai báo trong class và có kèm theo cơ chế( phạm vi truy cập của thuộc tính public, protected, private)
+public name;
+protected password;
+private email;
+//phương thức: 1 hàm được khai báo trong class và có kèm theo cơ chế 
+ví dụ Function getName(){ return $name};
+Function setName(); set thì không có return trả về, get thì luôn có return
+làm thế nào để sử dụng được thuộc tính: how to access property, phương thức ?
+Ngoài class:
+Access thông qua đối tượng.
+trong class:
+access thông qua this
+
+Cơ chế:
+public: access đến mọi nơi trong,ngoài, class con
+protected: access đến trong, class con
+private access đến trong class,(class con kế thừa cũng không được)
+
+khi return thì phải tạo biến để hứng kết quả, hoặc echo ra
+constructor: hàm tự động chạy khi khởi động đối tượng, (tên hàm giống tên object)
+tự động chạy khi new object,
